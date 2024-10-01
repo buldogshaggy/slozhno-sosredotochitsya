@@ -3,6 +3,17 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+:root.theme-dark {
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --bg-color: #000028;
+  --main-font: IBM Plex mono;
+  --accent-font: 'Raleway';
+  --main-font-size: 18px;
+  --header-bg-img: url(../images/cover-image-dark.png);
+  --main-bg-color: #000028;
+  --main-title-color: #ff0070;
+}
 
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
