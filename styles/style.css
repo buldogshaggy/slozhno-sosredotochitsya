@@ -117,7 +117,6 @@ a:focus-visible {
 .title__decor {
   background-color: var(--accent-color);
   color: var(--main-bg-color);
-  padding-left: 12px;
 }
 
 .header__theme-menu-list {
@@ -245,11 +244,13 @@ button {
   gap: 20px;
 }
 
+.section__third-title {
+  grid-column: 1;
+}
 
 .section__third-subtitle {
-  background-color: var(--accent-color);
-  color: var(--main-bg-color);
-  margin-block-end: 20px;
+  grid-column: 2;
+  height: max-content;
 }
 
 .card__advice-list {
@@ -283,7 +284,6 @@ button {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 32%);
   grid-template-rows: 24% 30% 40%;
   gap: 20px;
 }
@@ -508,8 +508,8 @@ button {
 
   .section__gallery-books {
     grid-column: 1;
+    grid-row: inherit;
     width: 100%;
-    grid-row: auto;
     width: 100%;
     object-fit: cover;
     object-position: center center;
@@ -518,11 +518,20 @@ button {
 
   .section__gallery-street {
     grid-column: 1;
+    grid-row: inherit;
     width: 100%;
-    grid-row: auto;
     width: 100%;
     object-fit: cover;
     object-position: center center;
     min-height: 100%;
+  }
+
+  .footer {
+    height: 100vh;
+    max-height: 668px;
+  }
+  
+  .footer__title {
+    margin-inline-start: 0;
   }
 }
