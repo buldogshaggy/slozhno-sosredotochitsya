@@ -258,6 +258,7 @@ button {
 }
 
 .card__advice-list-item {
+  line-height: 23.4px;
   margin-block-end: 20px;
 }
 
