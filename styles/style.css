@@ -235,7 +235,7 @@ button {
 
 .section__third {
   display: grid;
-  grid-template-columns: 32% 66%;
+  grid-template-columns: 34% 63%;
   letter-spacing: 0%;
   background-color: var(--bg-color);
   padding-left: 20px;
