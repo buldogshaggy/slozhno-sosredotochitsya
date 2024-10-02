@@ -510,7 +510,6 @@ button {
     grid-column: 1;
     grid-row: inherit;
     width: 100%;
-    width: 100%;
     object-fit: cover;
     object-position: center center;
     min-height: 100%;
@@ -519,7 +518,6 @@ button {
   .section__gallery-street {
     grid-column: 1;
     grid-row: inherit;
-    width: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center center;
