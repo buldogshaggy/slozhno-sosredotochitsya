@@ -3,12 +3,6 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.theme-light {
-  --header-bg-img: url(../images/cover-image-light.png);
-  --bg-color: #FFF1F7;
-  --accent-color: #FF8DCB;
-}
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -22,6 +16,8 @@
   --main-title-color: #353430;
   --title-color: #FFC2E6;
   --decore-visible: hidden;
+  --border-btn-hover: rgba(53, 52, 48, 0.4);
+  --link-effects: #FF8DCB;
 }
 
 
@@ -35,5 +31,7 @@
     --main-title-color: #353430;
     --title-color: #FFC2E6;
     --decore-visible: hidden;
+    --border-btn-hover: rgba(53, 52, 48, 0.4);
+    --link-effects: #FF8DCB;
   }
 }

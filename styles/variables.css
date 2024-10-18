@@ -7,7 +7,7 @@
   --accent-color: #ff0070;
   --title-color: #db00ff;
   --bg-color: #000028;
-  --main-font: IBM Plex mono;
+  --main-font: IBM Plex mono, Arial, sans-serif;
   --accent-font: 'Raleway';
   --main-font-size: 18px;
   --header-bg-img: url(../images/cover-image-dark.png);
@@ -15,4 +15,6 @@
   --main-font-color: #F1B2CE;
   --main-title-color: #ff0070;
   --decore-visible: visible;
+  --border-btn-hover: rgba(255, 0, 112, 0.4);
+  --link-effects: #ff0070;
 }
