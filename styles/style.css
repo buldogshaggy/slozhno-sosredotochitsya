@@ -340,6 +340,10 @@ a:focus-visible {
     grid-template-columns: none;
   }
 
+  .content__advice {
+    grid-template-columns: 33% 64%;
+  }
+
   .footer {
     max-height: 1024px;
   }
