@@ -8,7 +8,7 @@
   --title-color: #db00ff;
   --bg-color: #000028;
   --main-font: IBM Plex mono, Arial, sans-serif;
-  --accent-font: 'Raleway';
+  --accent-font: 'Raleway', Arial, sans-serif;
   --main-font-size: 18px;
   --header-bg-img: url(../images/cover-image-dark.png);
   --main-bg-color: #000028;

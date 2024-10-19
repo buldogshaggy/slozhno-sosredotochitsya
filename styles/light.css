@@ -20,7 +20,6 @@
   --link-effects: #FF8DCB;
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
     --header-bg-img: url(../images/cover-image-light.png);
