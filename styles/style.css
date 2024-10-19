@@ -47,10 +47,12 @@ a:focus-visible {
 .header {
   display: grid;
   position: relative;
-  grid-template-rows: 1fr minmax(min-content, max-content) 1fr;
+  grid-template-rows: 1fr min-content 1fr;
   max-width: 1024px;
   height: 100vh;
   max-height: 768px;
+  padding: 20px;
+
 }
 
 .header__decore {
@@ -105,32 +107,26 @@ a:focus-visible {
   font-weight: bold;
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
-  align-self: end;
+  margin-inline-start: -20px;
+  line-height: 129.53px;
 }
 
 .header__subtitle {
   justify-self: end;
   align-self: center;
-  margin-inline-end: 2%;
-  margin-block-end: 6%;
-  max-width: 503px;
-  width: 100%;
-}
-
-.header__subtitle p {
-  margin-left: 12px;
+  max-width: 491px;
 }
 
 .title__decor {
   background-color: var(--accent-color);
   color: var(--main-bg-color);
+  max-height: max-content;
 }
 
 .header__theme-menu-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 21px;
   gap: 10px;
   color: var(--main-title-color);
 }
@@ -142,9 +138,9 @@ a:focus-visible {
   text-transform: lowercase;
   appearance: none;
   background-color: transparent;
-  text-align: center;
-  padding: 1px 13px;
-  border: 1px solid transparent;
+  padding: 2px 13px 4px;
+  line-height: 1;
+  border: 0px solid transparent;
   cursor: pointer;
 }
 
@@ -244,8 +240,7 @@ a:focus-visible {
 }
 
 .content__gallery {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   margin-bottom: 60px;
 }
 
@@ -314,21 +309,19 @@ a:focus-visible {
     max-height: 1024px;
   }
 
-  .header__subtitle p {
-    margin: 0;
+  .header__title {
+    line-height: 99px;
   }
 
   .header__theme-menu {
     display: flex;
-    margin-inline-end: 20px;
-    margin-block-start: 3%;
     row-gap: 10px;
     justify-self: end;
-    align-self: center;
   }
 
   .header__theme-menu-list {
     flex-direction: column;
+    align-items: center;
   }
 
   .header__subtitle {
@@ -355,11 +348,7 @@ a:focus-visible {
     padding: 10px;
   }
 
-  .header__subtitle {
-    margin: 0;
-  }
-
-  .header__subtitle p {
+  .header__title {
     margin: 0;
   }
 
@@ -380,7 +369,6 @@ a:focus-visible {
 
   .header__theme-menu {
     align-self: center;
-    padding-bottom: 10%;
     margin-inline-end: 0;
   }
 
